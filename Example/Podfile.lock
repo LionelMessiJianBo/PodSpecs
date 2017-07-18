@@ -1,5 +1,11 @@
 PODS:
-  - PodTest (0.1.0)
+  - PodTest (1.0.1):
+    - PodTest/A (= 1.0.1)
+    - PodTest/B (= 1.0.1)
+    - PodTest/C (= 1.0.1)
+  - PodTest/A (1.0.1)
+  - PodTest/B (1.0.1)
+  - PodTest/C (1.0.1)
 
 DEPENDENCIES:
   - PodTest (from `../`)
@@ -9,7 +15,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  PodTest: 439c3036dcecd9f48575d1a35cfb7093ad125a10
+  PodTest: a0b3774bfcccb8f5ec735fea47af7ee2bbbccf65
 
 PODFILE CHECKSUM: 09838801336d37dd6198d574707228cf70743751
 

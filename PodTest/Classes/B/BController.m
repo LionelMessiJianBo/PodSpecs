@@ -1,18 +1,18 @@
 //
-//  BJBController.m
-//  Pods
+//  BController.m
+//  PodTest
 //
 //  Created by pdid on 2017/7/18.
-//
+//  Copyright © 2017年 LionelMessiJianBo. All rights reserved.
 //
 
-#import "BJBController.h"
+#import "BController.h"
 
-@interface BJBController ()
+@interface BController ()
 
 @end
 
-@implementation BJBController
+@implementation BController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "AController.h"
+#import "BController.h"
+#import "CController.h"
 
 FOUNDATION_EXPORT double PodTestVersionNumber;
 FOUNDATION_EXPORT const unsigned char PodTestVersionString[];

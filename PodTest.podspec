@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PodTest'
-  s.version          = '1.0.1'
+  s.version          = '1.1.0'
   s.summary          = 'description of PodTest.'
 
 # This description is used to generate tags and improve search results.
@@ -30,8 +30,24 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'PodTest/Classes/**/*'
-  
+  s.subspec 'A' do |a|
+  a.source_files = 'PodTest/Classes/A/*.{h,m}'
+  a.public_header_files ='PodTest/Classes/A/*.h'
+  a.requires_arc = true
+  end
+
+  s.subspec 'B' do |b|
+  b.source_files = 'PodTest/Classes/B/*.{h,m}'
+  b.public_header_files ='PodTest/Classes/B/*.h'
+  b.requires_arc = true
+  end
+
+  s.subspec 'C' do |c|
+  c.source_files = 'PodTest/Classes/C/*.{h,m}'
+  c.public_header_files ='PodTest/Classes/C/*.h'
+  c.requires_arc = true
+  end
+
   # s.resource_bundles = {
   #   'PodTest' => ['PodTest/Assets/*.png']
   # }
